@@ -34,6 +34,7 @@ struct ContentView: View {
                                 .frame(height: geo.size.height * 0.3)
                                 .padding(.vertical, 20)
                                 
+                            CategoryGridView()
                             
                             FooterView()
                                 .padding(.horizontal)
