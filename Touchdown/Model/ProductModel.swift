@@ -28,4 +28,7 @@ struct Product: Codable, Identifiable{
     var formattedPrice: String {return "S \(price)"}
 }
 
+extension Product {
+    static let exampleProduct: Product = products[0]
+}
 
