@@ -17,6 +17,7 @@ struct FeaturedTabView: View {
             }
         }//: TabView
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+        
 
     }
 }

@@ -10,13 +10,14 @@ import SwiftUI
 struct HeaderDetailView: View {
     
     // MARK: - Properties
+    @EnvironmentObject var shop: Shop
     
     // MARK: - Body
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             Text("Protective Gear")
             
-            Text(Product.exampleProduct.name)
+            Text(shop.selectedProduct?.name ??  Product.exampleProduct.name)
                 .font(.largeTitle)
                 .fontWeight(.black)
         }
@@ -28,6 +29,7 @@ struct HeaderDetailView: View {
 struct HeaderDetailView_Previews: PreviewProvider {
     static var previews: some View {
         HeaderDetailView()
+            .environmentObject(Shop())
             .previewLayout(.sizeThatFits)
             .padding()
             .background(.gray)

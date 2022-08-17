@@ -42,6 +42,7 @@
 		498ECC1D28AB141B000CC0F8 /* RatingSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498ECC1C28AB141B000CC0F8 /* RatingSizesDetailView.swift */; };
 		498ECC1F28AB1FAA000CC0F8 /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498ECC1E28AB1FAA000CC0F8 /* QuantityFavouriteDetailView.swift */; };
 		498ECC2128AB28E6000CC0F8 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498ECC2028AB28E6000CC0F8 /* AddToCartDetailView.swift */; };
+		498ECC2328AC606C000CC0F8 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498ECC2228AC606C000CC0F8 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		498ECC1C28AB141B000CC0F8 /* RatingSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSizesDetailView.swift; sourceTree = "<group>"; };
 		498ECC1E28AB1FAA000CC0F8 /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
 		498ECC2028AB28E6000CC0F8 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		498ECC2228AC606C000CC0F8 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,16 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				492B361D28A602D9008A1AF7 /* Home */,
-				492B361C28A602C2008A1AF7 /* Detail */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		492B361C28A602C2008A1AF7 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Detail;
 			sourceTree = "<group>";
 		};
 		492B361D28A602D9008A1AF7 /* Home */ = {
@@ -202,6 +196,7 @@
 			children = (
 				492B362328A6034C008A1AF7 /* File.swift */,
 				498ECC1A28AB0D17000CC0F8 /* CustomShape.swift */,
+				498ECC2228AC606C000CC0F8 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -351,6 +346,7 @@
 				492B362E28A855A9008A1AF7 /* CodableBundleExtension.swift in Sources */,
 				492B360328A5D101008A1AF7 /* ContentView.swift in Sources */,
 				492B362A28A71540008A1AF7 /* LogoView.swift in Sources */,
+				498ECC2328AC606C000CC0F8 /* Shop.swift in Sources */,
 				492B362628A60DBD008A1AF7 /* FooterView.swift in Sources */,
 				492B363028A85F03008A1AF7 /* FeaturedItemView.swift in Sources */,
 				492B364528A9D7EA008A1AF7 /* ProductItemView.swift in Sources */,
